@@ -13,7 +13,7 @@ const AddTask = () => {
   const handleSubmitNewTodo: FormEventHandler <HTMLFormElement>= async (e) =>{
   e.preventDefault();
   await addTodo({
-    id:"6",
+    id:"7",
     text: newTaskValue
   });
   //console.log(newTaskValue);
